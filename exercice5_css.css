@@ -2,7 +2,11 @@ table
 {
     border-collapse: collapse; /*pour coller les bordures*/
 }
-td
+td, th
 {
     border: 1px solid black;
+}
+tfoot
+{
+    text-align: center;
 }
